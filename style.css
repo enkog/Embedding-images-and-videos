@@ -5,7 +5,7 @@
 }
 
 body {
-    background: gray; 
+    background: #f1f1f1; 
     height: 100%;
 } 
 
@@ -71,3 +71,156 @@ body {
     color: white;
     border: none;
 }
+
+.left-side {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 2;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.video-meta-wrapper {
+    background-color: white;
+    width: 100%;
+    min-height: 150px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.video-stats-wrapper{
+    display: flex;
+
+}
+
+.left-stats {
+    flex: 8;
+    display: flex;
+}
+
+.channel-name, .subscribe-button {
+    flex: 2;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+
+.channel-name {
+    font-size: large;
+}
+
+
+
+.subscribe-button {
+    flex: 1;
+    display: flex;
+    padding: 5px;
+    
+}
+
+.red-part{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.sub-counter {
+    font-size: small;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    
+}
+
+
+.chanel-name-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.bottom-section {
+    display: flex;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    
+}
+
+.thumbnail > h1 {
+    font-size: x-large;
+    text-align: center;
+    align-content: center;
+    line-height: 80px;
+}
+
+
+.right-stats  {
+    flex: 4;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+.actions-wrapper {
+    border-top: 1px solid gray;
+    margin-top: 5px;
+    display: flex;
+    
+}
+
+.actions-buttons {
+    flex: 3;
+}
+
+.actions-buttons-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    
+}
+
+.actions-buttons-wrapper > div {
+    margin-right: 20px;
+    color: gray;
+    margin-top: 5px;
+}
+
+
+.like-dislike {
+    flex: 2;
+    color: gray;
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.like-dislike > i{
+   margin-right: 5px;
+}
+
+.views-counter > h1 {
+    font-size: x-large;
+    flex: 1;
+    color: gray;
+    align-items: baseline;
+}
+
+.description {
+    background-color: white;
+    margin-top: 15px;
+    min-height: 150px;
+    padding: 15px;
+}
+
