@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto';
+}
+
 body {
     background: #f1f1f1; 
     height: 100%;
@@ -229,24 +233,63 @@ body {
     margin-top: 15px;
     padding: 10px;
     flex: 1;
+    padding: 15px;
+    /* border: 1px solid #ccc; */
+    box-shadow: #ccc;
 }
 
 .right-side-wrapper {
     display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
 }
 .right-side-video {
-    flex: 2;
+    flex: 1;
     justify-content: space-between;
     
 }
 
+.right-side-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 .right-side-stats-wrapper {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 }
 .right-side-title {
+    letter-spacing: 1px;
     
 }
 
 .right-side-channel {
 
+}
+
+
+#main-video {
+    width: "100%"; 
+    height: "350px";
+}
+
+
+/* Utils classes */
+
+.gray {
+    color: gray
+}
+
+.font-thin {
+    font-weight: lighter;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
 }

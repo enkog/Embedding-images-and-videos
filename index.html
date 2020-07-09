@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ac0885c8f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Embedding Videos and Images</title>
 </head>
@@ -41,7 +42,7 @@
         <div class="left-side">
 
             <div class="video">
-                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/wyj17UwXkbU" frameborder="0"
+                <iframe height="350" style="width: 100%; border: none" src="https://www.youtube.com/embed/wyj17UwXkbU" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -127,23 +128,27 @@
         </div>
         <div class="right-side">
             <div>
-                Up next
+                <div class="right-side-header">
+                    <span >Up next</span>
+                    <span>Auto play <i class="fas fa-info-circle"></i><i class="fas fa-toggle-on"></i></span>
+                </div>
+              
                 <div class="right-side-wrapper">
                     <div class="right-side-video">
-                        <iframe width="98%" height="auto" src="https://www.youtube.com/embed/f9ip1iSAptQ"
-                            frameborder="0" allow="accelerometer; autoplay; 
+                        <iframe style="width: 98%; border: none; height: auto;" src="https://www.youtube.com/embed/f9ip1iSAptQ"
+                             allow="accelerometer; autoplay; 
                             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="right-side-stats-wrapper">
-                        <div class="right-side-title">
+                        <h4 class="right-side-title mb-5">
                             What is Microverse
-                        </div>
-                        <div class="right-side-channel">
+                        </h4>
+                        <h5 class="right-side-channel gray font-thin mb-5">
                             Microverse
-                        </div>
-                        <div class="right-side-views">
-                            views
-                        </div>
+                        </h5>
+                        <h6 class="right-side-views gray mb-5">
+                           344,33 views
+                        </h6>
                     </div>
                 </div>
 
