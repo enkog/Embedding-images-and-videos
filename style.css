@@ -78,9 +78,7 @@ body {
     flex: 2;
 }
 
-.right-side {
-    flex: 1;
-}
+
 
 .video-meta-wrapper {
     background-color: white;
@@ -224,3 +222,31 @@ body {
     padding: 15px;
 }
 
+.right-side {
+    
+    background: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    flex: 1;
+}
+
+.right-side-wrapper {
+    display: flex;
+}
+.right-side-video {
+    flex: 2;
+    justify-content: space-between;
+    
+}
+
+.right-side-stats-wrapper {
+    flex: 1;
+}
+.right-side-title {
+    
+}
+
+.right-side-channel {
+
+}
