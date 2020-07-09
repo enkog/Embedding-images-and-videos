@@ -34,7 +34,7 @@ body {
 .search {
     flex: 4;
     align-items: center;
-    
+    display: flex;
 }
 
 .search > input {
@@ -48,6 +48,7 @@ body {
     width: 50px;
     font-size: 16px;
     justify-content: center;
+    margin-left: 0px;
 }
 
 .notify {
@@ -242,11 +243,18 @@ body {
     display: flex;
     border-bottom: 1px solid #ccc;
     padding-bottom: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
-.right-side-video {
+.right-side-image {
     flex: 1;
     justify-content: space-between;
     
+}
+
+#video-thumbnail {
+    width: 98%;
+    height: auto;
 }
 
 .right-side-header {
@@ -292,4 +300,16 @@ body {
 
 .mb-5 {
     margin-bottom: 5px;
+}
+
+footer {
+    background: #fff;
+    height: 60px;
+    padding: 10px;
+
+}
+
+.footer-image > img{
+    width: auto;
+    height: 30px;
 }
