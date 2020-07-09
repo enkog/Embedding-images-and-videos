@@ -1,11 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac0885c8f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Embedding Videos and Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <nav class="nav-layout">
+        <div class="logo">
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="youtube-icon">
+                <img src="./images/youtube-logo.png" alt="youtube icon" />
+            </div>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="Search" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="notify">
+            <div class="upload">
+                <img src="./images/upload.png" alt="upload file icon">
+            </div>
+            <div class="sign-in">
+                <button>Sign In</button>
+            </div>
+            <div class="notify-bell">
+                <i class="fas fa-bell"></i>
+            </div>
+        </div>
+    </nav>
+    <main class="bottom-section">
+        <section class="left-side">
+
+            
+                <iframe  style="width: 100%; border: none; height: 500px;" src="https://www.youtube.com/embed/wyj17UwXkbU"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            
+
+            <div class="video-meta-wrapper">
+                <div class="video-title">
+                    <h1>Microverse Coding Challenges</h1>
+                </div>
+                <div class="video-stats-wrapper">
+                    <div class="left-stats">
+
+                        <div class="thumbnail">
+                        </div>
+
+                        <div class="chanel-name-sub-wrapper">
+                            <div class="channel-name">
+                                Microverse
+                            </div>
+                            <button class="subscribe-button">
+                                <span class="red-part">
+                                    <i class="fab fa-youtube"></i>
+                                    Subscribe
+                                </span>
+                                <span class="sub-counter">
+                                    7999
+                                </span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="right-stats">
+                        <div class="views-counter">
+                            <span>50,016 views</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="actions-wrapper">
+
+                    <div class="actions-buttons">
+                        <div class="actions-buttons-wrapper">
+                            <div>
+                                <i class="fas fa-plus"></i>
+                                add to
+                            </div>
+                            <button id="share-button">
+                                <i class="fas fa-plus"> </i>
+                                share
+                            </button>
+                            <div>
+                                <i class="fas fa-ellipsis-h"> </i>
+                                more
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="like-dislike">
+                        <i class="fas fa-thumbs-up">300</i>
+                        <i class="fas fa-thumbs-down">100</i>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <article class="description">
+                <h5>Published on Feb 27, 2014</h5>
+                <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple
+                    contribution to an open source project -- without using the command line, a text editor, "forking a
+                    repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open
+                    source software projects are typically looking for. As an example, I use submitting a student
+                    solution to a web development exercise from The Odin Project, a free online curriculum for learning
+                    web development with Ruby on Rails. You can find more information about that project at
+                    http://theodinproject.com.</p>
+
+            </article>
+        </section>
+        <aside class="right-side">
+            <div>
+                <div class="right-side-header">
+                    <span class="mr-5">Up next</span>
+                    <span class="mr-5">Auto play <i class="fas fa-info-circle mr-5"></i><i class="fas fa-toggle-on mr-5"></i></span>
+                </div>
+                <ul>
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/mJ0co6yXnXk/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                What is Microverse
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                344,33 views
+                            </h6>
+                        </div>
+                    </li>
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                Why The Microverse Might Be A Reality | Unveiled
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                49,815 views
+                            </h6>
+                        </div>
+                    </li>
+
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/F7Q3H6wa3-E/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                From Microverse Student to Remote Developer:
+                                An interview with Ariel Camus & Alvaro Sanchez
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                421 views
+                            </h6>
+                        </div>
+                    </li>
+
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                Why The Microverse Might Be A Reality | Unveiled
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                49,815 views
+                            </h6>
+                        </div>
+                    </li>
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                Why The Microverse Might Be A Reality | Unveiled
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                49,815 views
+                            </h6>
+                        </div>
+                    </li>
+
+
+
+
+                </ul>
+
+
+
+
+            </div>
+
+
+        </aside>
+    </main>
+    <footer>
+        <figure class="footer-image">
+            <img src="./images/youtube-logo.png" alt="youtube-icon">
+        </figure>
+    </footer>
 </body>
+
 </html>

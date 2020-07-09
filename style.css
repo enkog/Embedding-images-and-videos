@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f1f1f1; 
+    height: 100%;
+} 
+
+.nav-layout {
+    background: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 2px 10px 2px 10px;
+
+}
+
+.logo {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.search {
+    flex: 4;
+    align-items: center;
+    display: flex;
+}
+
+.search > input {
+    width: 90%;
+    height: 30px;
+    justify-content: center;
+}
+
+.search > button {
+    height: 30px;
+    width: 50px;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.notify {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.youtube-icon > img{
+    height: 20px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.upload > img{
+    height: 20px;
+}
+
+.sign-in > button{
+    height: 30px;
+    padding: 4px;
+    background-color: #167ac6;
+    color: white;
+    border: none;
+}
+
+.left-side {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 2;
+}
+
+
+
+
+
+.video-meta-wrapper {
+    background-color: white;
+    width: 100%;
+    min-height: 150px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.video-stats-wrapper{
+    display: flex;
+
+}
+
+.left-stats {
+    flex: 8;
+    display: flex;
+}
+
+.channel-name, .subscribe-button {
+    flex: 2;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+
+
+
+.channel-name {
+    font-size: large;
+}
+
+
+
+.subscribe-button {
+    flex: 1;
+    display: flex;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+
+.red-part{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.sub-counter {
+    font-size: small;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 0 5px 5px 0;
+    color:gray ;
+    
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.chanel-name-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.bottom-section {
+    display: flex;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    background-image: url('images/microverse-logo.jpg');
+    background-size: contain;
+    
+}
+
+/* .thumbnail > h1 {
+    font-size: x-large;
+    text-align: center;
+    align-content: center;
+    line-height: 80px;
+} */
+
+
+.right-stats  {
+    flex: 4;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.actions-wrapper {
+    border-top: 1px solid gray;
+    margin-top: 5px;
+    display: flex;
+    
+}
+
+.actions-buttons {
+    flex: 3;
+}
+
+.actions-buttons-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    
+}
+
+.actions-buttons-wrapper > div, #share-button {
+    margin-right: 20px;
+    color: gray;
+    margin-top: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.actions-buttons-wrapper > div:hover, #share-button:hover {
+    color: darkgray;
+}
+
+#share-button {   
+    border: none;
+ 
+}
+
+
+.like-dislike {
+    flex: 2;
+    color: gray;
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.like-dislike > i{
+   margin-right: 5px;
+}
+
+.views-counter > span {
+    font-size: x-large;
+    flex: 1;
+    color: gray;
+    align-items: baseline;
+    border-bottom: 2px solid#167ac6;
+    
+}
+
+
+
+
+
+.description {
+    background-color: white;
+    margin-top: 15px;
+    min-height: 150px;
+    padding: 15px;
+}
+
+.right-side {
+    background: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    flex: 1;
+    padding: 15px;
+    /* border: 1px solid #ccc; */
+    box-shadow: #ccc;
+    overflow: hidden;
+}
+
+.right-side-wrapper {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.right-side-image {
+    flex: 1;
+    justify-content: space-between;
+    
+}
+
+.video-thumbnail {
+    width: 98%;
+    height: auto;
+}
+
+.right-side-header {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.right-side-stats-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.right-side-title {
+    letter-spacing: 1px;
+    
+}
+
+.right-side-channel {
+
+}
+
+
+#main-video {
+    width: "100%"; 
+    height: "350px";
+}
+
+
+/* Utils classes */
+
+.gray {
+    color: gray
+}
+
+.font-thin {
+    font-weight: lighter;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+footer {
+    background: #fff;
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.footer-image > img{
+    width: auto;
+    height: 30px;
+}
