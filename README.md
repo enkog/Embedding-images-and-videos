@@ -30,14 +30,15 @@ Webbrowser and access to internet
 
 ### Install
 
-1) [download](https://github.com/enkog/Embedding-images-and-videos/archive/master.zip) or clone 
+1) [Download](https://github.com/enkog/Embedding-images-and-videos/archive/master.zip) or clone the repository to your machine;
+
 ```sh
 $ git clone https://github.com/enkog/Embedding-images-and-videos.git 
 ```
-the repository to your machine;
 
-2) If downloaded unconpress it;
-3) Navigate to the project folder and execute "index.html" file.
+2) In case you downloaded the project uncompress it;
+
+3) Navigate to the project folder and execute the "index.html" file.
 
 ### Usage
 
