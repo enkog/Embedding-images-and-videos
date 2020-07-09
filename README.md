@@ -4,7 +4,7 @@
 
 > This project was developed as a learning project part of the Microvese curriculum
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 A simple HTML and CSS mock up of the Youtube video webpage
 
@@ -15,7 +15,6 @@ A simple HTML and CSS mock up of the Youtube video webpage
 - Google Fonts
 - Font awesome
 
-<<<<<<< HEAD
 
 ## Getting Started
 
@@ -26,9 +25,6 @@ To get a local copy up and running follow these simple example steps.
 Webbrowser and access to internet
 
 ### Install
-=======
-## Getting Started
->>>>>>> f0bc42f4ab36c395edb5e3d257a0b7d6bdbb44c0
 
 There is no need to installation, just run the index.html file
 
@@ -40,8 +36,8 @@ Just navigate through the page the only functioning part of the project is the v
 
 👤 **Diego Lira**
 
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
+- Github: [@lirad](https://github.com/lirad)
+- Twitter: [@lirad](https://twitter.com/lirad)
 
 
 
@@ -49,8 +45,8 @@ Just navigate through the page the only functioning part of the project is the v
 
 👤 **Nkiruka Awotoruvie**
 
-- Github: [@githubhandle](https://github.com/enkog)
-- Twitter: [@twitterhandle](https://twitter.com/enkodes)
+- Github: [@enkog](https://github.com/enkog)
+- Twitter: [@enkodes](https://twitter.com/enkodes)
 
 
 ## 🤝 Contributing
