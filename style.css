@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -155,15 +155,17 @@ body {
     height: 80px;
     background-color: green;
     color: white;
+    background-image: url('images/microverse-logo.jpg');
+    background-size: contain;
     
 }
 
-.thumbnail > h1 {
+/* .thumbnail > h1 {
     font-size: x-large;
     text-align: center;
     align-content: center;
     line-height: 80px;
-}
+} */
 
 
 .right-stats  {
@@ -171,6 +173,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
 }
 
 
@@ -213,12 +217,18 @@ body {
    margin-right: 5px;
 }
 
-.views-counter > h1 {
+.views-counter > span {
     font-size: x-large;
     flex: 1;
     color: gray;
     align-items: baseline;
+    border-bottom: 2px solid#167ac6;
+    
 }
+
+
+
+
 
 .description {
     background-color: white;
@@ -228,7 +238,6 @@ body {
 }
 
 .right-side {
-    
     background: white;
     margin-left: 10px;
     margin-top: 15px;
@@ -237,6 +246,7 @@ body {
     padding: 15px;
     /* border: 1px solid #ccc; */
     box-shadow: #ccc;
+    overflow: hidden;
 }
 
 .right-side-wrapper {
@@ -252,7 +262,7 @@ body {
     
 }
 
-#video-thumbnail {
+.video-thumbnail {
     width: 98%;
     height: auto;
 }
@@ -302,10 +312,15 @@ body {
     margin-bottom: 5px;
 }
 
+.mr-5 {
+    margin-right: 5px;
+}
 footer {
     background: #fff;
     height: 60px;
     padding: 10px;
+    width: 100%;
+    margin-top: 15px;
 
 }
 

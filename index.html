@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Embedding Videos and Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -38,11 +40,11 @@
             </div>
         </div>
     </nav>
-    <section class="bottom-section">
-        <main class="left-side">
+    <main class="bottom-section">
+        <section class="left-side">
 
             <div class="video">
-                <iframe height="350" style="width: 100%; border: none" src="https://www.youtube.com/embed/wyj17UwXkbU" 
+                <iframe height="350" style="width: 100%; border: none" src="https://www.youtube.com/embed/wyj17UwXkbU"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -55,7 +57,6 @@
                     <div class="left-stats">
 
                         <div class="thumbnail">
-                            <h1>T</h1>
                         </div>
 
                         <div class="chanel-name-sub-wrapper">
@@ -76,9 +77,7 @@
                     </div>
                     <div class="right-stats">
                         <div class="views-counter">
-                            <div>
-                                <h1> 50,016 views </h1>
-                            </div>
+                            <span>50,016 views</span>
                         </div>
                     </div>
 
@@ -124,18 +123,19 @@
                     web development with Ruby on Rails. You can find more information about that project at
                     http://theodinproject.com.</p>
 
-                </article>
-        </main>
+            </article>
+        </section>
         <aside class="right-side">
             <div>
                 <div class="right-side-header">
-                    <span >Up next</span>
-                    <span>Auto play <i class="fas fa-info-circle"></i><i class="fas fa-toggle-on"></i></span>
+                    <span class="mr-5">Up next</span>
+                    <span class="mr-5">Auto play <i class="fas fa-info-circle mr-5"></i><i class="fas fa-toggle-on mr-5"></i></span>
                 </div>
                 <ul>
                     <li class="right-side-wrapper">
                         <div class="right-side-image">
-                            <img id = "video-thumbnail" src="http://i3.ytimg.com/vi/mJ0co6yXnXk/maxresdefault.jpg" alt="video-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/mJ0co6yXnXk/maxresdefault.jpg"
+                                alt="video-image">
                         </div>
                         <div class="right-side-stats-wrapper">
                             <h4 class="right-side-title mb-5">
@@ -145,13 +145,14 @@
                                 Microverse
                             </h5>
                             <h6 class="right-side-views gray mb-5">
-                               344,33 views
+                                344,33 views
                             </h6>
                         </div>
                     </li>
                     <li class="right-side-wrapper">
                         <div class="right-side-image">
-                            <img id = "video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg" alt="video-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
                         </div>
                         <div class="right-side-stats-wrapper">
                             <h4 class="right-side-title mb-5">
@@ -168,7 +169,8 @@
 
                     <li class="right-side-wrapper">
                         <div class="right-side-image">
-                            <img id = "video-thumbnail" src="http://i3.ytimg.com/vi/F7Q3H6wa3-E/maxresdefault.jpg" alt="video-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/F7Q3H6wa3-E/maxresdefault.jpg"
+                                alt="video-image">
                         </div>
                         <div class="right-side-stats-wrapper">
                             <h4 class="right-side-title mb-5">
@@ -186,7 +188,8 @@
 
                     <li class="right-side-wrapper">
                         <div class="right-side-image">
-                            <img id = "video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg" alt="video-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
                         </div>
                         <div class="right-side-stats-wrapper">
                             <h4 class="right-side-title mb-5">
@@ -200,25 +203,42 @@
                             </h6>
                         </div>
                     </li>
-                   
-                            
-                      
+                    <li class="right-side-wrapper">
+                        <div class="right-side-image">
+                            <img class="video-thumbnail" src="http://i3.ytimg.com/vi/BF6n-bjYr7Y/maxresdefault.jpg"
+                                alt="video-image">
+                        </div>
+                        <div class="right-side-stats-wrapper">
+                            <h4 class="right-side-title mb-5">
+                                Why The Microverse Might Be A Reality | Unveiled
+                            </h4>
+                            <h5 class="right-side-channel gray font-thin mb-5">
+                                Microverse
+                            </h5>
+                            <h6 class="right-side-views gray mb-5">
+                                49,815 views
+                            </h6>
+                        </div>
+                    </li>
+
+
+
 
                 </ul>
-                
+
 
 
 
             </div>
 
-            
+
         </aside>
-    </section>
+    </main>
     <footer>
         <figure class="footer-image">
             <img src="./images/youtube-logo.png" alt="youtube-icon">
         </figure>
     </footer>
 </body>
-    
+
 </html>
