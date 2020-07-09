@@ -12,12 +12,6 @@ Additional description about the project and its features.
 
 - HTML5, CSS3
 
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 Just copy the repository and run index.html.
