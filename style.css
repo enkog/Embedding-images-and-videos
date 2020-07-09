@@ -85,6 +85,8 @@ body {
 
 
 
+
+
 .video-meta-wrapper {
     background-color: white;
     width: 100%;
@@ -197,10 +199,21 @@ body {
     
 }
 
-.actions-buttons-wrapper > div {
+.actions-buttons-wrapper > div, #share-button {
     margin-right: 20px;
     color: gray;
     margin-top: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.actions-buttons-wrapper > div:hover, #share-button:hover {
+    color: darkgray;
+}
+
+#share-button {   
+    border: none;
+ 
 }
 
 
