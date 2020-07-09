@@ -16,7 +16,7 @@ A simple HTML and CSS mock up of the Youtube video webpage
 
 - HTML5,
 - CSS3,
-- Google Fonts
+- Google Fonts,
 - Font awesome
 
 
@@ -30,7 +30,14 @@ Webbrowser and access to internet
 
 ### Install
 
-There is no need to installation, just run the index.html file
+1) [download](https://github.com/enkog/Embedding-images-and-videos/archive/master.zip) or clone 
+```sh
+$ git clone https://github.com/enkog/Embedding-images-and-videos.git 
+```
+the repository to your machine;
+
+2) If downloaded unconpress it;
+3) Navigate to the project folder and execute "index.html" file.
 
 ### Usage
 
@@ -42,9 +49,6 @@ Just navigate through the page the only functioning part of the project is the v
 
 - Github: [@lirad](https://github.com/lirad)
 - Twitter: [@lirad](https://twitter.com/lirad)
-
-
-
 
 
 👤 **Nkiruka Awotoruvie**

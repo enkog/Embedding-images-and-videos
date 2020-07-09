@@ -111,6 +111,8 @@ body {
     
 }
 
+
+
 .channel-name {
     font-size: large;
 }
@@ -121,6 +123,9 @@ body {
     flex: 1;
     display: flex;
     padding: 5px;
+    background-color: transparent;
+    border: none;
+    
     
 }
 
@@ -134,12 +139,21 @@ body {
 
 .sub-counter {
     font-size: small;
-    border: 1px solid gray;
-    padding: 5px;
+    border: 1px solid #ccc;
+    padding: 6px;
     border-radius: 0 5px 5px 0;
+    color:gray ;
+    
     
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
 
 .chanel-name-sub-wrapper {
     display: flex;
