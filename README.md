@@ -10,7 +10,7 @@ A simple HTML and CSS mock up of the Youtube video webpage
 
 ## Live demo
 
-🔗 https://raw.githack.com/enkog/Embedding-images-and-videos/develop/index.html
+🔗 [YouTube Clone](https://raw.githack.com/enkog/Embedding-images-and-videos/develop/index.html)
 
 ## Built With
 
